@@ -1,0 +1,13 @@
+<svg width="200" height="50" viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E60012"/>
+      <stop offset="100%" stop-color="#004C97"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="50" fill="none"/>
+  <text x="10" y="32" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="url(#logoGradient)">LiTONG</text>
+  <text x="10" y="46" font-family="Arial, sans-serif" font-size="10" fill="#666666">Mitsubishi Electric Distributor</text>
+  <circle cx="180" cy="25" r="15" fill="none" stroke="#E60012" stroke-width="2"/>
+  <path d="M180 15 L180 35 M170 25 L190 25" stroke="#E60012" stroke-width="2"/>
+</svg>
