@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
-  <rect width="200" height="50" fill="white"/>
-  <text x="10" y="30" font-family="Arial" font-size="22" font-weight="bold" fill="#E60012">LiTONG</text>
-  <text x="12" y="44" font-family="Arial" font-size="9" fill="#666666">Mitsubishi Electric</text>
-  <circle cx="175" cy="22" r="12" fill="none" stroke="#E60012" stroke-width="2"/>
-  <line x1="175" y1="14" x2="175" y2="30" stroke="#E60012" stroke-width="2"/>
-  <line x1="167" y1="22" x2="183" y2="22" stroke="#E60012" stroke-width="2"/>
-</svg>
+PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMDAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCAyMDAgNTAiPgogIDxyZWN0IHdpZHRoPSIyMDAiIGhlaWdodD0iNTAiIGZpbGw9IndoaXRlIi8+CiAgPHRleHQgeD0iMTAiIHk9IjMwIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMjIiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjRTYwMDEyIj5MaVRPTkc8L3RleHQ+CiAgPHRleHQgeD0iMTIiIHk9IjQ0IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iIzY2NjY2NiI+TWl0c3ViaXNoaSBFbGVjdHJpYzwvdGV4dD4KICA8Y2lyY2xlIGN4PSIxNzUiIGN5PSIyMiIgcj0iMTIiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0U2MDAxMiIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPGxpbmUgeDE9IjE3NSIgeTE9IjE0IiB4Mj0iMTc1IiB5Mj0iMzAiIHN0cm9rZT0iI0U2MDAxMiIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPGxpbmUgeDE9IjE2NyIgeTE9IjIyIiB4Mj0iMTgzIiB5Mj0iMjIiIHN0cm9rZT0iI0U2MDAxMiIgc3Ryb2tlLXdpZHRoPSIyIi8+Cjwvc3ZnPg==
