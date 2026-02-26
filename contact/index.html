@@ -6,20 +6,26 @@
     <title>Contact Us - Mitsubishi Electric</title>
     <link rel="icon" type="image/svg+xml" href="../images/logo.svg">
     <link rel="stylesheet" href="../css/style.css">
+    <style>.logo-container{display:flex;align-items:center}.logo{height:50px;width:auto;display:block}</style>
 </head>
 <body>
     <header class="main-header">
         <div class="container">
-            <div class="logo-container"><a href="/"><img src="../images/logo.svg" alt="LiTong" class="logo"></a></div>
-            <nav class="main-nav"><ul class="nav-list">
-                <li><a href="/">Home</a></li>
-                <li><a href="/products/">Products</a></li>
-                <li><a href="/solutions/">Solutions</a></li>
-                <li><a href="/support/">Support</a></li>
-                <li><a href="/news/">News</a></li>
-                <li><a href="/about/">About</a></li>
-                <li><a href="/">Contact</a></li>
-            </ul></nav>
+            <div class="logo-container">
+                <a href="/"><img src="../images/logo.svg" alt="LiTong" class="logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"></a>
+                <span style="display:none;font-size:20px;font-weight:bold;color:#E60012;">LiTONG</span>
+            </div>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/products/">Products</a></li>
+                    <li><a href="/solutions/">Solutions</a></li>
+                    <li><a href="/support/">Support</a></li>
+                    <li><a href="/news/">News</a></li>
+                    <li><a href="/about/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </nav>
             <div class="contact-info">
                 <a href="https://wa.me/8615013702378" target="_blank" class="contact-link">
                     <img src="../images/icons/whatsapp.svg" alt="WhatsApp" width="20" height="20">
@@ -32,6 +38,14 @@
             </div>
         </div>
     </header>
-    <main><section class="page-header"><div class="container"><h1>Contact Us</h1><p>Global sales network</p></div></section></main>
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Global sales network</p>
+            </div>
+        </section>
+    </main>
+    <script src="../js/main.js"></script>
 </body>
 </html>

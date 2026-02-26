@@ -8,13 +8,19 @@
     <meta name="keywords" content="Mitsubishi Distributor, Mitsubishi Electric Agent, Mitsubishi PLC Agent, FX5U, iQ-R Series">
     <link rel="icon" type="image/svg+xml" href="images/logo.svg">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Critical CSS for logo */
+        .logo-container { display: flex; align-items: center; }
+        .logo { height: 50px; width: auto; display: block; }
+    </style>
 </head>
 <body>
     <header class="main-header">
         <div class="container">
             <div class="logo-container">
-                <a href="/">
-                    <img src="images/logo.svg" alt="LiTong - Mitsubishi Electric Distributor" class="logo">
+                <a href="/" aria-label="Home">
+                    <img src="images/logo.svg" alt="LiTong" class="logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+                    <span style="display:none;font-size:20px;font-weight:bold;color:#E60012;">LiTONG</span>
                 </a>
             </div>
             <nav class="main-nav">
@@ -28,7 +34,11 @@
                     <li><a href="/contact/">Contact</a></li>
                 </ul>
             </nav>
-            <button class="mobile-menu-toggle"><span class="hamburger"></span><span class="hamburger"></span><span class="hamburger"></span></button>
+            <button class="mobile-menu-toggle" aria-label="Menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
         </div>
     </header>
     <section class="hero-banner">
