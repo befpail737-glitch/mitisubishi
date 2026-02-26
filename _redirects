@@ -1,0 +1,12 @@
+# Redirects file for Cloudflare Pages
+# Format: from to status
+
+# Force HTTPS
+http://mitsubishi.elec-distributor.com/* https://mitsubishi.elec-distributor.com/:splat 301
+
+# Legacy URL redirects (if needed)
+#/old-page /new-page 301
+
+# 404 handler
+/404 /404.html 404
+/* /404.html 404
