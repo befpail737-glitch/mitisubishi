@@ -1,0 +1,43 @@
+/* Mitsubishi Electric Distributor Website - Main Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+    --mitsubishi-red: #E60012;
+    --tech-blue: #004C97;
+    --dark-gray: #2C3E50;
+    --light-gray: #ECF0F1;
+    --white: #FFFFFF;
+    --space-sm: 16px;
+    --space-md: 24px;
+    --space-lg: 32px;
+}
+body { font-family: 'Roboto', Arial, sans-serif; font-size: 16px; line-height: 1.5; color: var(--dark-gray); }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 var(--space-md); }
+h1 { font-size: 2rem; margin-bottom: var(--space-md); }
+h2 { font-size: 1.75rem; margin-bottom: var(--space-md); }
+.btn { display: inline-block; padding: 12px 24px; border-radius: 4px; text-decoration: none; cursor: pointer; border: none; transition: all 0.3s ease; }
+.btn-primary { background-color: var(--mitsubishi-red); color: white; }
+.btn-primary:hover { background-color: #c0000f; transform: translateY(-2px); }
+.btn-secondary { background-color: transparent; color: var(--tech-blue); border: 2px solid var(--tech-blue); }
+.btn-secondary:hover { background-color: var(--tech-blue); color: white; }
+.main-header { background-color: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+.main-header .container { display: flex; justify-content: space-between; align-items: center; padding: var(--space-sm) var(--space-md); }
+.logo { height: 50px; width: auto; }
+.nav-list { display: flex; list-style: none; gap: var(--space-md); }
+.nav-list li a { color: var(--dark-gray); text-decoration: none; font-weight: 500; }
+.nav-list li a:hover { color: var(--mitsubishi-red); }
+.mobile-menu-toggle { display: none; flex-direction: column; background: none; border: none; cursor: pointer; }
+.hamburger { width: 25px; height: 3px; background-color: var(--dark-gray); margin: 3px 0; }
+.hero-banner { background: linear-gradient(135deg, var(--tech-blue), var(--mitsubishi-red)); color: white; padding: 6rem 0; text-align: center; }
+.hero-banner h1 { color: white; font-size: 2.5rem; margin-bottom: 1rem; }
+.hero-banner p { font-size: 1.25rem; margin-bottom: 2rem; }
+.hero-buttons { display: flex; gap: 1rem; justify-content: center; }
+.page-header { background: var(--light-gray); padding: 4rem 0; text-align: center; }
+.page-header h1 { color: var(--tech-blue); }
+@media (max-width: 768px) {
+    .mobile-menu-toggle { display: flex; }
+    .main-nav { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; }
+    .main-nav.active { display: block; }
+    .nav-list { flex-direction: column; padding: var(--space-md); }
+    .hero-banner h1 { font-size: 1.75rem; }
+    .hero-buttons { flex-direction: column; align-items: center; }
+}
