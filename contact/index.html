@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Mitsubishi Electric</title>
-    <link rel="icon" type="image/svg+xml" href="../images/logo.svg">
     <link rel="stylesheet" href="../css/style.css">
-    <style>.logo-container{display:flex;align-items:center}.logo{height:50px;width:auto;display:block}</style>
+    <style>.logo-container{display:flex;align-items:center}.logo-svg{height:50px;width:auto}</style>
 </head>
 <body>
     <header class="main-header">
         <div class="container">
             <div class="logo-container">
-                <a href="/"><img src="../images/logo.svg" alt="LiTong" class="logo" onerror="this.style.display='none';this.nextElementSibling.style.display='block';"></a>
-                <span style="display:none;font-size:20px;font-weight:bold;color:#E60012;">LiTONG</span>
+                <a href="/">
+                    <svg class="logo-svg" xmlns="http://www.w3.org/2000/svg" width="200" height="50" viewBox="0 0 200 50">
+                        <rect width="200" height="50" fill="white"/>
+                        <text x="10" y="30" font-family="Arial" font-size="22" font-weight="bold" fill="#E60012">LiTONG</text>
+                        <text x="12" y="44" font-family="Arial" font-size="9" fill="#666666">Mitsubishi Electric</text>
+                        <circle cx="175" cy="22" r="12" fill="none" stroke="#E60012" stroke-width="2"/>
+                        <line x1="175" y1="14" x2="175" y2="30" stroke="#E60012" stroke-width="2"/>
+                        <line x1="167" y1="22" x2="183" y2="22" stroke="#E60012" stroke-width="2"/>
+                    </svg>
+                </a>
             </div>
             <nav class="main-nav">
                 <ul class="nav-list">
@@ -28,11 +35,9 @@
             </nav>
             <div class="contact-info">
                 <a href="https://wa.me/8615013702378" target="_blank" class="contact-link">
-                    <img src="../images/icons/whatsapp.svg" alt="WhatsApp" width="20" height="20">
                     <span>WhatsApp: +86 15013702378</span>
                 </a>
                 <a href="#" class="contact-link">
-                    <img src="../images/icons/wechat.svg" alt="WeChat" width="20" height="20">
                     <span>WeChat: +86 18612518271</span>
                 </a>
             </div>
